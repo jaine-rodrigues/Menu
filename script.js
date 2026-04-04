@@ -13,3 +13,12 @@ botao.addEventListener('click', () => {
 
     
 })
+
+backgroud.addEventListenera('click', () => {
+    menulateral.classList.remove('ativo')
+    botao.classList.remove('ativo')
+    conteudo.classList.remove('ativo')
+    backgroud.classList.remove('ativo')
+    document.body.style.backgroundColor = '#ecf0f1'
+
+})
